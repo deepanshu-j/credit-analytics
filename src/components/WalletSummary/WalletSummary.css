@@ -1,0 +1,27 @@
+.wallet__body{
+    flex: 0.6;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.wallet__header{
+    display: flex;
+    padding: 0 1rem ;
+    justify-content: space-between;
+}
+
+.wallet__core{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wallet__bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.moneyblock__icon{
+    width: 30px;
+    height: 30px;
+}

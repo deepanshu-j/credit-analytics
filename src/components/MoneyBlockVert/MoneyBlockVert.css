@@ -1,0 +1,15 @@
+
+.moneyblockvert__body{
+    display: flex;
+    background-color: #ececef;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.moneyblockvert__header{
+    color: slategray;
+}

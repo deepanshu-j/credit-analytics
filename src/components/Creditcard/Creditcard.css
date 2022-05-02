@@ -1,0 +1,47 @@
+.creditcard__body{
+    margin: 1rem;
+    background-color: #171a1c;
+    border-radius: 8px;
+    color: #47474e;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    height: fit-content;
+}
+
+.creditcard__top{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px 0px;
+
+}
+
+.visa__img{
+    width:4rem;
+}
+
+.creditcard__number__text{
+    font-size: medium;
+    margin-top: 1rem;
+}
+.creditcard__number{
+    color: white;
+    font-size: x-large;
+    font-family: Abel;
+    letter-spacing: normal;
+    margin: 10px 0px 20px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.creditcard__bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+.text_white{
+    color: white;
+}
