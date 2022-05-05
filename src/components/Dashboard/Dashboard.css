@@ -2,8 +2,15 @@
     flex: 0.85;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
+
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
 }
 
+.dashboard__body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
 .dashboard__header{
     display: flex;
     flex-direction: row-reverse;
@@ -28,5 +35,21 @@
 
 .dashboard__core{
     display: flex;
+    width: 100%;
+}
+.dashboard__ground{
+    display: flex;
+    width: 100%;
+}
+
+.ground__left{
+    display: flex;
+    flex: 0.5;
+    padding: 20px;
+}
+
+.linechart__container{
+    display: flex;
+    flex: 0.5;
     width: 100%;
 }

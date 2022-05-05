@@ -4,6 +4,9 @@ import { connect } from 'react-redux';
 import { AiOutlineBell, AiOutlineMessage, AiOutlineCalendar, AiOutlineCaretDown } from 'react-icons/ai';
 import Creditcard from '../Creditcard/Creditcard';
 import WalletSummary from '../WalletSummary/WalletSummary';
+import ChartCard from '../ChartCard/ChartCard';
+import { Line } from 'react-chartjs-2';
+import Transaction from '../Transaction/Transaction';
 
 export const Dashboard = (props) => {
 	const current = new Date();
@@ -24,6 +27,14 @@ export const Dashboard = (props) => {
 			<div className="dashboard__core">
 				<Creditcard />
 				<WalletSummary />
+			</div>
+			<div className="dashboard__ground">
+				<div className="ground__left">
+					<ChartCard />
+				</div>
+				<div className="ground__right">
+					<Transaction />
+				</div>
 			</div>
 		</div>
 	);

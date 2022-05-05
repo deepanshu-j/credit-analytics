@@ -5,7 +5,7 @@ function Creditcard() {
 	return (
 		<div className="creditcard__body">
 			<div className="creditcard__top">
-				<div>Payment Details</div>
+				<div>DEEPANSHU JOHAR</div>
 
 				<img
 					src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg"
