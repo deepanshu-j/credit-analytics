@@ -36,6 +36,13 @@ export const Dashboard = (props) => {
 					<Transaction />
 				</div>
 			</div>
+
+			<div className="dashboard__nucleus">
+				<div className="nucleus__left">
+					<Transaction />
+				</div>
+				<div className="nucleus__right">Hi</div>
+			</div>
 		</div>
 	);
 };

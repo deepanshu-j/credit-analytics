@@ -44,12 +44,25 @@
 
 .ground__left{
     display: flex;
-    flex: 0.5;
+    flex: 0.7;
     padding: 20px;
+    width: 100%;
+}
+.ground__right{
+    display: flex;
+    padding: 20px;
+    flex: 0.3;
+    width: 100%;
 }
 
 .linechart__container{
     display: flex;
-    flex: 0.5;
+    /* flex: 0.5; */
     width: 100%;
+}
+
+.dashboard__nucleus{
+    display: flex;
+    padding: 20px;
+    flex:0.6;
 }
