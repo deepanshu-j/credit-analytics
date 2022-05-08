@@ -33,7 +33,8 @@ export const Dashboard = (props) => {
 					<ChartCard />
 				</div>
 				<div className="ground__right">
-					<Transaction />
+					{/* <Transaction /> */}
+					Empty Space!!
 				</div>
 			</div>
 

@@ -1,0 +1,57 @@
+
+.recent__transactions{
+    font-size: large;
+    font-weight: bold;
+}
+
+.transaction__organism{
+    background-color: #F0F8FF;
+    /* background-color: #E1EBEE; */
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.transaction__head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.transaction__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transaction__row__left{
+    display: flex;
+    align-items: center;
+}
+
+.increment_icon{
+    min-height: 30px;
+    min-width: 30px;    
+    padding: 1rem;
+}
+
+.transaction__body{
+
+    padding: 1rem;
+}
+
+.transaction__date__header{
+    color: rgb(146, 145, 145);
+    font-size: small;
+}
+
+.hr__line__separator{
+    border: 1px solid slategrey;
+    background-color: slategray;
+    border-radius: 5px;
+}
+.paidto{
+    letter-spacing: 1px;
+    font-size:1.1em;
+}

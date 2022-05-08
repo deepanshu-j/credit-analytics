@@ -6,6 +6,8 @@
 
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
+    
+    background: url('../../assets/layered-waves.svg') no-repeat bottom;
 }
 
 .dashboard__body::-webkit-scrollbar { 
@@ -64,5 +66,10 @@
 .dashboard__nucleus{
     display: flex;
     padding: 20px;
+    width: 100%;
+}
+
+.nucleus__left{
+    width: 100%;
     flex:0.6;
 }
