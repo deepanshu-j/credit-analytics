@@ -33,8 +33,11 @@ export const Dashboard = (props) => {
 					<ChartCard />
 				</div>
 				<div className="ground__right">
-					{/* <Transaction /> */}
-					Empty Space!!
+					<img
+						alt="Logo"
+						src="https://cdn-icons-png.flaticon.com/512/3004/3004584.png"
+						className="firework__img"
+					/>
 				</div>
 			</div>
 

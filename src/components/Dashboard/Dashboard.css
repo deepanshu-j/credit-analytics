@@ -7,6 +7,7 @@
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
     
+    
     background: url('../../assets/layered-waves.svg') no-repeat bottom;
 }
 
@@ -55,6 +56,13 @@
     padding: 20px;
     flex: 0.3;
     width: 100%;
+}
+.firework__img{
+    max-width: 60%;
+    max-height: 60%;
+    margin: auto;
+    display: block;
+    background-color: rgb(254, 254, 198);
 }
 
 .linechart__container{

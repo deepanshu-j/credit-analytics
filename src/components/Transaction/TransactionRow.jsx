@@ -10,7 +10,7 @@ function TransactionRow({ isPositive, paidTo, amount }) {
 				{isPositive ? (
 					<BsPlus className="increment_icon" style={{ color: '#002D62' }} />
 				) : (
-					<HiMinusSm className="increment_icon" style={{ color: '#58111A' }} />
+					<HiMinusSm className="increment_icon" style={{ color: '#002D72' }} />
 				)}
 				<div>
 					Transfer {isPositive ? 'From' : 'To'}
