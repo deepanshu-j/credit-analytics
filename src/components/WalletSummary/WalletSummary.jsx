@@ -3,6 +3,8 @@ import './WalletSummary.css';
 import { AiOutlineRight, AiOutlineRise, AiOutlinePound, AiOutlineWallet } from 'react-icons/ai';
 import MoneyBlock from '../MoneyBlock/MoneyBlock';
 import MoneyBlockVert from '../MoneyBlockVert/MoneyBlockVert';
+import { MdOutlineAccountBalanceWallet } from 'react-icons/md';
+import { RiBankCardLine } from 'react-icons/ri';
 
 function WalletSummary() {
 	return (
@@ -27,19 +29,15 @@ function WalletSummary() {
 			</div>
 			<div className="wallet__bottom">
 				<MoneyBlockVert
-					icon={<AiOutlineRise className="moneyblock__icon" />}
-					text={'Balance'}
+					icon={<MdOutlineAccountBalanceWallet className="moneyblock__icon" />}
+					text={'Crypto'}
 					value={'$5692.58'}
 				/>
+				<MoneyBlockVert icon={<RiBankCardLine className="moneyblock__icon" />} text={'Due'} value={'$632.80'} />
 				<MoneyBlockVert
 					icon={<AiOutlinePound className="moneyblock__icon" />}
-					text={'Balance'}
-					value={'$5692.58'}
-				/>
-				<MoneyBlockVert
-					icon={<AiOutlineRise className="moneyblock__icon" />}
-					text={'Balance'}
-					value={'$5692.58'}
+					text={'Stocks'}
+					value={'$20092.58'}
 				/>
 			</div>
 		</div>
