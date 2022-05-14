@@ -33,11 +33,11 @@ export const Dashboard = (props) => {
 					<ChartCard />
 				</div>
 				<div className="ground__right">
-					<img
+					{/* <img
 						alt="Logo"
 						src="https://cdn-icons-png.flaticon.com/512/3004/3004584.png"
 						className="firework__img"
-					/>
+					/> */}
 				</div>
 			</div>
 
@@ -45,7 +45,7 @@ export const Dashboard = (props) => {
 				<div className="nucleus__left">
 					<Transaction />
 				</div>
-				<div className="nucleus__right">Hi</div>
+				<div className="nucleus__right" />
 			</div>
 		</div>
 	);

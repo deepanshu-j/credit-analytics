@@ -14,7 +14,11 @@ function Transaction() {
 				<div style={{ display: 'flex', alignItems: 'center' }}>
 					<button className="sortby__button">Sort By</button>
 					<ReactToPrint
-						trigger={() => <AiOutlineCloudDownload style={{ minHeight: '25px', minWidth: '25px' }} />}
+						trigger={() => (
+							<AiOutlineCloudDownload
+								style={{ minHeight: '25px', minWidth: '25px', cursor: 'pointer' }}
+							/>
+						)}
 						content={() => componentRef.current}
 					/>
 					{/* <AiOutlineCloudDownload style={{ minHeight: '20px', minWidth: '20px' }} /> */}

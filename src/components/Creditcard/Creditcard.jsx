@@ -13,7 +13,7 @@ function Creditcard() {
 				/>
 			</div>
 			<div className="creditcard__number__text">Card Number</div>
-			<div className="creditcard__number"> 4000 1234 5678 9010 </div>
+			<div className="creditcard__number"> 4000 8080 8765 9231 </div>
 
 			<div className="creditcard__bottom">
 				<div>Expiration</div>
